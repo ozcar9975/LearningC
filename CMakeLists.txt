@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(LearningC main.c
         commenting.c
-        escape_seq.c)
+        escape_seq.c
+        basic_data_types_and_vars.c)
