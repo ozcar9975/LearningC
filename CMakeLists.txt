@@ -9,4 +9,5 @@ add_executable(LearningC main.c
         variables.c
         data_types.c
         format_specifiers.c
-        constants.c)
+        constants.c
+        cmake-build-debug/arithmetic_operators.c)
