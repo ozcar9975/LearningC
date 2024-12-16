@@ -4,10 +4,10 @@ project(LearningC C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(LearningC main.c
-        commenting.c
-        escape_seq.c
-        variables.c
-        data_types.c
-        format_specifiers.c
-        constants.c
-        arithmetic_operators.c)
+        "lesson files/commenting.c"
+        "lesson files/escape_seq.c"
+        "lesson files/variables.c"
+        "lesson files/data_types.c"
+        "lesson files/format_specifiers.c"
+        "lesson files/constants.c"
+        "lesson files/arithmetic_operators.c")
