@@ -8,4 +8,5 @@ add_executable(LearningC main.c
         escape_seq.c
         variables.c
         data_types.c
-        format_specifiers.c)
+        format_specifiers.c
+        constants.c)
