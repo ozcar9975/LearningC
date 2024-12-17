@@ -11,4 +11,5 @@ add_executable(LearningC main.c
         "lesson files/format_specifiers.c"
         "lesson files/constants.c"
         "lesson files/arithmetic_operators.c"
-        "lesson files/argumented_operators.cpp")
+        "lesson files/argumented_operators.c"
+        "lesson files/user_input.c")
