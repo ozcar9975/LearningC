@@ -17,4 +17,5 @@ add_executable(LearningC main.c
         "programs/hypotenuse_calculator.c"
         "programs/circle_circumference.c"
         programs/hypotenuse_calculator.c
-        "lesson files/if_statements.c")
+        "lesson files/if_statements.c"
+        "lesson files/switch_statements.c")
