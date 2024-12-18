@@ -14,5 +14,6 @@ add_executable(LearningC main.c
         "lesson files/argumented_operators.c"
         "lesson files/user_input.c"
         "lesson files/math_functions.c"
-        cmake-build-debug/programs/circle_circumference.c
+        "programs/hypotenuse_calculator.c"
+        "programs/circle_circumference.c"
         programs/hypotenuse_calculator.c)
