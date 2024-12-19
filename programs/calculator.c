@@ -17,12 +17,28 @@ int main() {
     printf("\nEnter number 1: ");
     scanf("%lf", &num1);
 
-    printf("\nEnter number 2: ");
+    printf("\nEnter number 2: \n");
     scanf("%lf", &num2);
 
     switch(operator) {
-
-
+        case '+':
+            result = num1 + num2;
+            printf("Result: %lf", result);
+            break;
+        case '-':
+            result = num1 - num2;
+            printf("Result: %lf", result);
+            break;
+        case '*':
+            result = num1 * num2;
+            printf("Result: %lf", result);
+            break;
+        case '/':
+            result = num1 / num2;
+            printf("Result: %lf", result);
+            break;
+        default:
+            printf("You're operator input was not valid!");
 
     }
 
