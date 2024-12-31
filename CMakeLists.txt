@@ -20,4 +20,5 @@ add_executable(LearningC main.c
         "lesson files/if_statements.c"
         "lesson files/switch_statements.c"
         programs/temperature_conversion.c
-        programs/calculator.c)
+        programs/calculator.c
+        fromcs171/gross_pay.c)
