@@ -22,10 +22,15 @@ int main() {
     printf("Enter Weeks Per Year Worked (integer):\n");
     scanf("%d", &weeks);
 
-    // calculations
-    float gross = wage * hours * weeks;
-    printf("%f", gross);
+    // gross pay calculation
+    float gross_pay_weekly = wage * hours;
+    float gross_pay = gross_pay_weekly * weeks;
 
+    printf("Gross Pay Information\n");
+    printf("You will make $%.2f per week.\n", gross_pay_weekly);
+    printf("You will make $%.2f per year.\n", gross_pay);
+
+    // dudcutions
 
 
     return 0;
