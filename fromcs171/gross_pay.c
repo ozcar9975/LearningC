@@ -27,11 +27,28 @@ int main() {
     float gross_pay = gross_pay_weekly * weeks;
 
     printf("Gross Pay Information\n");
-    printf("You will make $%.2f per week.\n", gross_pay_weekly);
-    printf("You will make $%.2f per year.\n", gross_pay);
+    printf("You will make $%'.2f per week.\n", gross_pay_weekly);
+    printf("You will make $%'.2f per year.\n", gross_pay);
 
-    // dudcutions
+    // deductions
+    float social_security_tax = gross_pay * 0.06;
+    gross_pay -= social_security_tax;
 
+    float medicare = gross_pay * 0.02;
+    gross_pay -= medicare;
+
+    float wage_tax = gross_pay * 0.12;
+    gross_pay -= wage_tax;
+
+    float state_tax = gross_pay * 0.0307;
+    gross_pay -= state_tax;
+
+    float philly_tax = gross_pay * 0.0375;
+    gross_pay -= philly_tax;
+
+    gross_pay -= 4752.0;
+
+    // print results
 
     return 0;
 
