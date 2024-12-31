@@ -46,9 +46,19 @@ int main() {
     float philly_tax = gross_pay * 0.0375;
     gross_pay -= philly_tax;
 
-    gross_pay -= 4752.0;
+    float insurance = 396 * 12;
+    gross_pay -= insurance;
 
     // print results
+    printf("Taxes and Deductions\n");
+    printf("You will pay $%.2f in Social Security Taxes.\n", social_security_tax);
+    printf("You will pay $%.2f in Medicare Taxes.\n", medicare);
+    printf("You will pay $%.2f in IRS Taxes.\n", wage_tax);
+    printf("You will pay $%.2f in PA State Taxes.\n", state_tax);
+    printf("You will pay $%.2f in Phila Taxes.\n", philly_tax);
+    printf("You will pay $%.2f for health insurance.\n\n", insurance);
+
+
 
     return 0;
 
