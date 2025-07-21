@@ -1,0 +1,10 @@
+# ninja log v6
+3	176	1734106062743177200	CMakeFiles/LearningC.dir/basic_data_types_and_vars.c.o	663df3fa238c93c6
+1	66	1735610001885260145	build.ninja	f82ef89c2f538b85
+1	69	1733967054696474565	CMakeFiles/LearningC.dir/main.c.o	dd72527b0730b40d
+3	176	1734106062742491545	CMakeFiles/LearningC.dir/escape_seq.c.o	4fb554fbb512d80
+0	252	1734053650166984977	LearningC	9f5224d00ccfdc95
+1	167	1734055577033891262	CMakeFiles/LearningC.dir/commenting.c.o	8e860754488d62f
+1	148	1733967223376019854	CMakeFiles/LearningC.dir/first_program.c.o	4cecdfbe12784cb1
+1	195	1734193861068112893	CMakeFiles/LearningC.dir/data_types.c.o	e51be8275f2661ca
+0	194	1734193861067923479	CMakeFiles/LearningC.dir/variables.c.o	a1b91580d5c8241f

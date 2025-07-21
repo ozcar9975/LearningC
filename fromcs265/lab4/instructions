@@ -1,0 +1,22 @@
+Q1 Write a function named rot13 that takes a string and returns nothing. It should modify the inputted string so that each character is encoded using the rot13 encoding scheme:
+
+If a character is a lowercase or uppercase letter, it should be replaced with the character 13 letters away from it in the alphabet. If the new character would be off the end of the alphabet, it should wrap around from the beginning.
+For example, a should become n and Z should become M.
+If a character is not a letter, it should remain unchanged.
+You can use this site to check your output.
+
+Hint: % is the remainder operator. Remember that characters are just integers.
+
+---
+Q2 Write a function named palindrome which takes a string and returns 1 if the inputted string is a palindrome and 0 if it’s not.
+
+A palindrome is a string that’s equivalent when it’s reversed, e.g. abcba and abccba are both palindromes, but abcxa is not.
+
+---
+Q3 Write a function named counter that returns an integer and takes a string and an integer pointer as arguments.
+
+If the string contains a character that isn’t an opening or closing parenthesis, it should return 0.
+
+Otherwise, it should count the difference between the number of opening and closing parentheses (e.g. )((( is 3 - 1 = 2 and (())) is 2 - 3 = -1), store the difference inside the integer referenced by the inputted integer pointer, and return 1.
+
+Hint: You need to call this function with a pointer to an integer. After calling counter, the original integer should contain the difference (assuming the string contained only parentheses). The return value of counter should only indicate whether the string was valid. Remember that & is the address of operator.
